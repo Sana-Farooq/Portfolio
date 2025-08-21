@@ -17,7 +17,6 @@ function Home() {
             <h3>Hey, I am Sana</h3>
             <h3>Frontend Developer & UI Enthusiast</h3>
             <p>I build clean, responsive web interfaces using HTML, CSS, JavaScript, and React.</p>
-            <button>Find My Resume</button>
             <button onClick={HandleNavigationtoContactPage}>Contact Me</button>
         </div>
         <div className=' ColumnImage col-lg-6'>
