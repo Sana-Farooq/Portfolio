@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(30, 29, 29);
+    margin-top: 90px;
+    color: #3a7459;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.ColumnContent {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.ColumnContent h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #3a7459;
+}
+.ColumnContent p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #3a7459;
+}
+
+.ColumnContent button {
+  padding: 10px 20px;
+  background-color: #588157;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 10px 20px;
+}
+
+.ColumnContent button:hover {
+  background-color: #3a5a40;
+}
+
+/* Right content (image) */
+.ColumnImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profilePic {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+  .ColumnContent, 
+  .ColumnImage {
+    flex: 100%; /* Stack full width */
+    text-align: center;
+  }
+
+  .ColumnContent p {
+    font-size: 1.3rem;
+  }
+
+  .ColumnContent button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}

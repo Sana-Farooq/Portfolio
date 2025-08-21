@@ -1,0 +1,58 @@
+.ColumnImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.aboutMe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.ColumnContent {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+.strong-text {
+  font-weight: bold; 
+  color: #3a7459;     
+}
+
+.ColumnContent .FrontEnd {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: left;
+  color: #dad7cd;
+}
+.ColumnContent h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: left;
+  color: #3a7459;
+}
+.ColumnContent .name,
+.ColumnContent .age,
+.ColumnContent .address,
+.ColumnContent .email,
+.ColumnContent .contact{
+  font-size: rem;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #ffffff;
+ text-align: left;
+}
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+  .ColumnContent, 
+  .ColumnImage {
+    flex: 100%; 
+    text-align: center;
+  }
+}
