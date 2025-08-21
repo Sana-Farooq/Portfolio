@@ -1,0 +1,77 @@
+.experience-section {
+  padding: 50px;
+  background: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.section-title {
+   font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #588157;
+  text-align: center;
+}
+
+.experience-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.experience-column {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  min-width: 300px;
+  flex: 1;
+}
+
+.experience-card {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  color: #ff4d5a;
+}
+
+.timeline-year {
+  display: block;
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.experience-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.experience-desc {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0 !important;
+}
+
+/* Vertical line */
+.experience-card::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 25px;
+  height: calc(100% - 25px);
+  width: 2px;
+  background: #ff4d5a;
+}
+
+.experience-desc {
+  white-space: pre-line; /* keeps \n as line breaks */
+}
