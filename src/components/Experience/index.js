@@ -4,6 +4,7 @@ import './Experience.css';
 import { MdSubject } from 'react-icons/md';
 
   const educationData = [
+  { year: "2016 - 2018", title: "Intermediate Degree" ,subject: "ICS",desc: "Division: 1st" },
   { year: "2018 - 2020", title: "Bachelor's Degree" ,subject: "B.Sc(Double Computer)",desc: "Division: 1st" },
   { year: "2020 - 2022", title: "Master's Degree", subject: "MCS" ,desc: "CGPA: 3.84" },
 ];

@@ -4,10 +4,16 @@
 }
 
 .skills-title {
-  font-size: 28px;
-  margin-bottom: 30px;
-  font-weight: bold;
-  color: #588157;
+   color: #0466c8;
+  text-align: center;
+  margin-top: 50px;
+  margin: 40px 0;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Montserrat",sans-serif;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInUp 1s ease-out forwards;
 }
 
 .skills-icons {
@@ -15,7 +21,7 @@
   justify-content: center;
   gap: 90px;
   flex-wrap: wrap;
-  margin-top: 110px;
+  margin-top: 130px;
 }
 
 .skill-icon {

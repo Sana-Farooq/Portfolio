@@ -48,7 +48,6 @@ function Contact() {
           </form>
 
           <div className="contact-info">
-            <p>Contact Number: 0301-8538797</p>
             <p>Location: Bahawalpur, Pakistan</p>
           </div>
 

@@ -1,9 +1,8 @@
 body{
-    background-color: rgb(30, 29, 29);
+    background-color: #0a1c28;
     margin-top: 90px;
-    color: #3a7459;
+    font-family: "Open Sans", sans-serif;
 }
-
 
 .row {
   display: flex;
@@ -12,29 +11,46 @@ body{
   justify-content: center;
   padding: 40px 20px;
 }
+.ColumnContent h3{
+  margin: 10px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat",sans-serif;
+}
+.ColumnContent h3 span{
+  color:#0466c8;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
 
+.ColumnContent h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 10px 0;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat",sans-serif;
+}
+.ColumnContent p {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+  margin: 10px 0;
+  color: #a5a5a5;
+}
 .ColumnContent {
   flex: 1;
   text-align: center;
   padding: 20px;
 }
 
-.ColumnContent h3 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin: 10px 0;
-  color: #3a7459;
-}
-.ColumnContent p {
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 10px 0;
-  color: #3a7459;
-}
+
 
 .ColumnContent button {
   padding: 10px 20px;
-  background-color: #588157;
+  background-color: #023e7d;
   border: none;
   border-radius: 6px;
   font-size: 1rem;
@@ -45,10 +61,9 @@ body{
 }
 
 .ColumnContent button:hover {
-  background-color: #3a5a40;
+  background-color: #0466c8;
 }
 
-/* Right content (image) */
 .ColumnImage {
   flex: 1;
   display: flex;
@@ -61,6 +76,56 @@ body{
   max-width: 100%;
   height: auto;
   border-radius: 12px;
+   box-shadow: 0 12px 30px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 -12px 30px rgba(0, 123, 255, 0.4);
+
+}
+
+.ColumnContent h3 {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.ColumnContent p {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+.ColumnContent button {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInScale 0.8s ease-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.ColumnImage img {
+  opacity: 0;
+  transform: scale(0.8) rotate(-5deg);
+  animation: fadeInImage 1s ease-out forwards;
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInImage {
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
 }
 
 /* ===== Responsive ===== */

@@ -2,6 +2,8 @@ import React from 'react'
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
 import  GirlPic from '../../assets/GirlPic.png';
+import "@fontsource/montserrat";
+import "@fontsource/open-sans";
 
 
 
@@ -14,8 +16,9 @@ function Home() {
   return (
       <div className='row w-100'>
         <div className='ColumnContent col-lg-6'>
-            <h3>Hey, I am Sana</h3>
-            <h3>Frontend Developer & UI Enthusiast</h3>
+            <h3>Hey, It's Me</h3>
+            <h1>Sana Farooq</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
             <p>I build clean, responsive web interfaces using HTML, CSS, JavaScript, and React.</p>
             <button onClick={HandleNavigationtoContactPage}>Contact Me</button>
         </div>

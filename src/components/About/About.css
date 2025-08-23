@@ -20,7 +20,7 @@
 
 .strong-text {
   font-weight: bold; 
-  color: #3a7459;     
+  color: #0466c8;     
 }
 
 .ColumnContent .FrontEnd {
@@ -30,12 +30,27 @@
   text-align: left;
   color: #dad7cd;
 }
-.ColumnContent h1 {
+
+
+.ColumnContent .FrontEnd li{
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: left;
+  color: #dad7cd;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInUp 1s ease-out forwards;  
+
+  
+}
+.ColumnContent .AboutHeading {
   font-size: 2rem;
   font-weight: bold;
   margin: 10px 0;
   text-align: left;
-  color: #3a7459;
+  color: #0466c8;
+  font-family: "Montserrat",sans-serif;
 }
 .ColumnContent .name,
 .ColumnContent .age,
