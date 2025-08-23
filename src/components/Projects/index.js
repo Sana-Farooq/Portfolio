@@ -131,7 +131,7 @@ function Projects() {
                         <div className="video-popup">
                             <span className="close-btn" onClick={() => setShowGame2(false)}>&times;</span>
                             <video width="600" controls autoPlay>
-                                <source src="/video/Game2.mp4" type="video/mp4" />
+                                <source src="/video/Game 2.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
