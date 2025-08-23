@@ -86,3 +86,15 @@
   float: right;
 }
 
+@media (min-width:600px) and (max-width:767px) {
+  .project-row {
+  width: 60% !important; 
+}
+
+}
+
+@media (max-width:599px) {
+  .project-row {
+  width: 90% !important; 
+}
+}
