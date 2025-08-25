@@ -10,7 +10,6 @@ import "@fontsource/open-sans";
 function Home() {
   const navigate= useNavigate();
   const HandleNavigationtoContactPage=() =>{
-
     navigate('/Contact');
   }
   return (
@@ -22,7 +21,7 @@ function Home() {
             <p>I build clean, responsive web interfaces using HTML, CSS, JavaScript, and React.</p>
             <button onClick={HandleNavigationtoContactPage}>Contact Me</button>
         </div>
-        <div className=' ColumnImage col-lg-6'>
+        <div className='ColumnImage col-lg-6'>
            <img className='profilePic' src={GirlPic} alt='profilePic'/>
         </div>
       </div>

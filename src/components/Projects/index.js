@@ -108,7 +108,7 @@ function Projects() {
                     <div className="video-overlay">
                         <div className="video-popup">
                             <span className="close-btn" onClick={() => setShowVideo(false)}>&times;</span>
-                            <video width="600" controls autoPlay>
+                            <video controls autoPlay>
                                 <source src="/video/NewsOrbitVideo.mp4" type="video/mp4" />
                             </video>
                         </div>

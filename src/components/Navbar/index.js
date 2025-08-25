@@ -7,11 +7,11 @@ function Navbar() {
 
   return (
     <nav className="navbar fixed-top navbar-expand-lg">
-      <div className="container-fluid d-flex justify-content-between">
-        <div className="navbar-brand align-items-center">
+      <div className="container-fluid">
+        <div className="navbar-brand">
           <p>Sana Farooq</p>
         </div>
-        <button className="toggle-btn" onClick={() => setOpen(!open)}>
+        <button className="toggle-btn bg-light" onClick={() => setOpen(!open)}>
           {open ? "✖" : "☰"}
         </button>
         <ul className={`nav-links ${open ? "show" : ""}`}>

@@ -50,6 +50,19 @@
   cursor: pointer;
 }
 
+@media (min-width:767px) and (max-width:991px) {
+  .nav-link{
+    margin: 0;
+    padding: 5px 0;
+  }
+  .navbar-brand {
+    margin-right: 0;
+  }
+  .nav-links{
+    padding-left: 0;
+  }
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -71,4 +84,6 @@
     display: block;
   }
 }
+
+
 

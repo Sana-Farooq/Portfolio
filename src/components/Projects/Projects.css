@@ -75,11 +75,18 @@
 }
 
 .video-popup {
+  max-width: 90%; 
+  width: 600px;
   background: white;
   padding: 20px;
   border-radius: 10px;
 }
 
+.video-popup video {
+  width: 100%;         
+  height: auto;
+  border-radius: 6px;
+}
 .close-btn {
   font-size: 24px;
   cursor: pointer;

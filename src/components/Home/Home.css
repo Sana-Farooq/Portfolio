@@ -1,37 +1,38 @@
-body{
-    background-color: #0a1c28;
-    margin-top: 90px;
-    font-family: "Open Sans", sans-serif;
+body {
+  background-color: #0a1c28;
+  margin-top: 70px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .row {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 40px 20px;
 }
-.ColumnContent h3{
+
+.ColumnContent h3 {
   margin: 10px 0;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #ffffff;
   text-align: left;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.ColumnContent h3 span{
-  color:#0466c8;
-  font-size: 1.5rem;
+.ColumnContent h3 span {
+  color: #0466c8;
+  font-size: 2rem;
   font-weight: 900;
 }
 
 .ColumnContent h1 {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 10px 0;
   color: #ffffff;
   text-align: left;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .ColumnContent p {
   font-size: 1rem;
@@ -45,8 +46,6 @@ body{
   text-align: center;
   padding: 20px;
 }
-
-
 
 .ColumnContent button {
   padding: 10px 20px;
@@ -73,15 +72,16 @@ body{
 }
 
 .profilePic {
+  width: 350px;
   max-width: 100%;
   height: auto;
   border-radius: 12px;
-   box-shadow: 0 12px 30px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 12px 30px rgba(0, 123, 255, 0.4);
   box-shadow: 0 -12px 30px rgba(0, 123, 255, 0.4);
-
 }
 
-.ColumnContent h3 {
+.ColumnContent h3,
+h1 {
   opacity: 0;
   transform: translateY(-30px);
   animation: fadeInUp 1s ease-out forwards;
@@ -128,11 +128,10 @@ body{
   }
 }
 
-/* ===== Responsive ===== */
 @media (max-width: 992px) {
-  .ColumnContent, 
+  .ColumnContent,
   .ColumnImage {
-    flex: 100%; /* Stack full width */
+    flex: 100%;
     text-align: center;
   }
 
