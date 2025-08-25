@@ -1,8 +1,7 @@
 .projectHeading {
   color: #0466c8;
   text-align: center;
-  margin-top: 50px;
-  margin: 40px 0;
+  margin: 110px 0 60px 0;
   font-size: 2rem;
   font-weight: 900;
   font-family: "Montserrat",sans-serif;
@@ -14,7 +13,7 @@
 .project-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 5px;
   align-items: center;
 }
 
@@ -22,6 +21,7 @@
   width: 50%; 
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .card {

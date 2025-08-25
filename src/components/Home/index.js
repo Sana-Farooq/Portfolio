@@ -13,7 +13,7 @@ function Home() {
     navigate('/Contact');
   }
   return (
-      <div className='row w-100'>
+      <div className='row homeRow w-100'>
         <div className='ColumnContent col-lg-6'>
             <h3>Hey, It's Me</h3>
             <h1>Sana Farooq</h1>

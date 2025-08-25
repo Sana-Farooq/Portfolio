@@ -33,7 +33,7 @@ function Contact() {
   };
 
   return (
-    <div className="container">
+    <div className="container contact-container">
       <h1>Contact Me</h1>
       <p>I Would like to hear your thoughts</p>
       <form ref={formref} onSubmit={sendEmail}>

@@ -16,32 +16,32 @@ function Navbar() {
         </button>
         <ul className={`nav-links ${open ? "show" : ""}`}>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/" end>
+            <NavLink className="nav-link" to="/" end onClick={() => setOpen(false)}>
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/About">
+            <NavLink className="nav-link" to="/About" onClick={() => setOpen(false)}>
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/Experience">
+            <NavLink className="nav-link" to="/Experience" onClick={() => setOpen(false)}>
               Experience
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/Skills">
+            <NavLink className="nav-link" to="/Skills" onClick={() => setOpen(false)}>
               Skills
             </NavLink>
           </li>
            <li className="nav-item">
-            <NavLink className="nav-link" to="/Projects">
+            <NavLink className="nav-link" to="/Projects" onClick={() => setOpen(false)}>
               Projects
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/Contact">
+            <NavLink className="nav-link" to="/Contact" onClick={() => setOpen(false)}>
               Contact
             </NavLink>
           </li>
