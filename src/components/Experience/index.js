@@ -10,11 +10,11 @@ import { MdSubject } from 'react-icons/md';
 ];
 
 const workData = [
-  { 
+  { year: "May 2025 - ongoing",
     title: "Front-End Development Intern", 
     Company: "Software House: TechSpark",
     desc: "Worked on real-world web projects using React, JavaScript, Figma, Html and CSS. Gained hands-on experience with GitHub and responsive design.", 
-    status: "May 2025 - ongoing"
+   
   },
   { year: "2025 - present", title: "Front-End Developer",status:"Status: Personal Projects", desc: "•Building responsive websites with React, JavaScript, and Bootstrap.\n•Experienced in API integration, Git/GitHub version control.\n•Developing reusable and efficient code for real-world projects."},
   { year: "2025 - present", title: "Back-End Developer", desc: "Focused on front-end development while actively exploring backend technologies to transition into full-stack development" },
